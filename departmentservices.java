@@ -85,4 +85,15 @@ structure.setMessage("Department registered Successfully");
 		
 	}
 
+	public ResponseStructure<departmentdto> getdepartmentbyname(String departmentName) {
+		department depart = departmentdao.getdepartmentbyname(departmentName);
+		ResponseStructure<departmentdto> structure = new ResponseStructure<departmentdto>();
+		departmentdto dto = mapper.map(depart, departmentdto.class);
+		structure.setData(dto);
+		structure.setMessage("we got the data with respect to the department");
+		structure.setStatusCode(200);
+		structure.setTimeStamp(LocalDateTime.now());
+		return structure;
+	}
+
 }
