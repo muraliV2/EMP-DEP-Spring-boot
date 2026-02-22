@@ -9,5 +9,4 @@ import com.jspiders.Entity.department;
 public interface departmentrepository extends JpaRepository<department,Integer>{
 
 	Optional<department> findByDepartmentName(String departmentName);
-
 }
