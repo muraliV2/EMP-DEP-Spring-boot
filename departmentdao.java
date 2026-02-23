@@ -3,7 +3,6 @@ package com.jspiders.dao;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-
 import com.jspiders.Entity.department;
 import com.jspiders.repository.departmentrepository;
 @Repository
