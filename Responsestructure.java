@@ -10,7 +10,5 @@ public class ResponseStructure<T>
 	private LocalDateTime timeStamp;
 	private String message;
 	private int StatusCode;
-	
-	
 
 }
