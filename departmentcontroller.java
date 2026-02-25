@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-
 import com.jspiders.dto.departmentdto;
 import com.jspiders.services.departmentservice;
 import com.jspiders.util.ResponseStructure;
