@@ -15,7 +15,6 @@ private String departmentName;
 private String location;
 @OneToMany(mappedBy = "department")
 private List<Employee> listofemployees = new ArrayList<Employee>();
-
 private void addEmployee(Employee employee)
 {
 	listofemployees.add(employee);
