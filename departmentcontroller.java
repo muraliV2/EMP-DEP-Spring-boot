@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.jspiders.dto.departmentdto;
 import com.jspiders.services.departmentservice;
 import com.jspiders.util.ResponseStructure;
-
 @RestController
 @RequestMapping("/department")
 public class departmentcontroller 
