@@ -22,7 +22,7 @@ employee.setDepartment(this);
 }
 private void removerEmployee(Employee employee)
 {
-	listofemployees.remove(employee);
+listofemployees.remove(employee);
 	employee.setDepartment(null);
 }
 }
