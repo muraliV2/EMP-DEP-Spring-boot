@@ -38,7 +38,6 @@ public ResponseEntity<?> deletedepartment(@PathVariable int departmentId)
 	ResponseStructure<String> structure = departmentser.deletedepartment(departmentId);
 	return new ResponseEntity<>(structure,HttpStatus.OK);
 }
-
 @GetMapping("get/{departmentId}")
 public ResponseEntity<?> getDepartmentbyid(@PathVariable int departmentId)
 {
