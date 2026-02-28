@@ -8,7 +8,6 @@ import com.jspiders.repository.departmentrepository;
 @Repository
 public class departmentdao 
 {
-
 	@Autowired
 	departmentrepository deparrepository;
 	public department registerdepartment(department department) {
