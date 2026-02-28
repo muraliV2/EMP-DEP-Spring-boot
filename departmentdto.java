@@ -1,7 +1,6 @@
 package com.jspiders.dto;
 
 import lombok.Data;
-
 @Data
 public class departmentdto 
 {
