@@ -48,7 +48,7 @@ return new ResponseEntity<>(structure,HttpStatus.OK);
 public ResponseEntity<?> getdepartmentbyname(@PathVariable  String departmentName)
 {
 	
-	ResponseStructure<departmentdto> structure = departmentser.getdepartmentbyname(departmentName);
+ResponseStructure<departmentdto> structure = departmentser.getdepartmentbyname(departmentName);
 	return new ResponseEntity<>(structure,HttpStatus.OK);
 }
 }
