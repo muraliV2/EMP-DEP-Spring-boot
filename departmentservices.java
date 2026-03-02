@@ -10,7 +10,6 @@ import com.jspiders.dao.departmentdao;
 import com.jspiders.dto.departmentdto;
 import com.jspiders.util.ResponseStructure;
 
-
 @Service
 public class departmentservice {
 
