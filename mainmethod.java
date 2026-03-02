@@ -13,5 +13,4 @@ public class EmployeeAppApplication {
     public ModelMapper modelMapper() {
         return new ModelMapper();
     }
-
 }
