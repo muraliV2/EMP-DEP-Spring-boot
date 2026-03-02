@@ -5,5 +5,5 @@ public class departmentdto
 {
 private int departmentId;
 private String departmentName;
-	private String location;
+private String location;
 }
