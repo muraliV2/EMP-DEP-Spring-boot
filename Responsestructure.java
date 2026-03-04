@@ -6,6 +6,6 @@ public class ResponseStructure<T>
 {
 private T data;
 private LocalDateTime timeStamp;
-	private String message;
+private String message;
 	private int StatusCode;
 }
