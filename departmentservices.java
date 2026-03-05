@@ -11,7 +11,7 @@ import com.jspiders.dto.departmentdto;
 import com.jspiders.util.ResponseStructure;
 @Service
 public class departmentservice {
-	
+
 	@Autowired
 	departmentdao departmentdao;
 	
