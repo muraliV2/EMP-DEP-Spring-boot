@@ -10,7 +10,7 @@ import com.jspiders.util.ResponseStructure;
 @Service
 public class departmentservice {
 @Autowired
-	departmentdao departmentdao;
+departmentdao departmentdao;
 	
 	 @Autowired
 	 private  ModelMapper mapper;
