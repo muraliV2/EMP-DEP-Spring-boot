@@ -12,7 +12,7 @@ public class departmentservice {
 @Autowired
 departmentdao departmentdao;
 @Autowired
-	private  ModelMapper mapper;
+private  ModelMapper mapper;
 	
 	
 	public  ResponseStructure<departmentdto> registerdepartment(departmentdto dto) 
