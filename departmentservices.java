@@ -27,7 +27,6 @@ structure.setMessage("Department registered Successfully");
     
     
 	
-	
 		
 	}
 	public ResponseStructure<departmentdto> updatedepartment(departmentdto dto) 
