@@ -30,7 +30,6 @@ structure.setMessage("Department registered Successfully");
 	
 		
 	}
-
 	public ResponseStructure<departmentdto> updatedepartment(departmentdto dto) 
 	{
 	department depart = mapper.map(dto,department.class);
