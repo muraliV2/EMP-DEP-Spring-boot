@@ -14,7 +14,7 @@ departmentdao departmentdao;
 @Autowired
 private  ModelMapper mapper;
 public  ResponseStructure<departmentdto> registerdepartment(departmentdto dto) 
-	{
+{
 department department = mapper.map(dto,department.class);
 department depart = departmentdao.registerdepartment(department);
 departmentdto dto2 = mapper.map(depart, departmentdto.class);    
