@@ -23,7 +23,7 @@ private departmentservice departmentser;
 public ResponseEntity<?> registerdepartment( @RequestBody departmentdto dto)
 {
 ResponseStructure<departmentdto> structure = departmentser.registerdepartment(dto);
-	return new ResponseEntity<>(structure,HttpStatus.CREATED);
+return new ResponseEntity<>(structure,HttpStatus.CREATED);
 }
 @PostMapping("/update")
 public ResponseEntity<?> updatedepartment(@RequestBody departmentdto dto)
