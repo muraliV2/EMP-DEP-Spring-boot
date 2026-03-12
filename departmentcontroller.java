@@ -28,7 +28,7 @@ return new ResponseEntity<>(structure,HttpStatus.CREATED);
 @PostMapping("/update")
 public ResponseEntity<?> updatedepartment(@RequestBody departmentdto dto)
 {
-	ResponseStructure<departmentdto> structure = departmentser.updatedepartment(dto);
+ResponseStructure<departmentdto> structure = departmentser.updatedepartment(dto);
 	return new ResponseEntity<>(structure,HttpStatus.OK);
 }
 @DeleteMapping("/delete/{departmentId}")
