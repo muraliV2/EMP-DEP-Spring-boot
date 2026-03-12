@@ -29,7 +29,7 @@ return new ResponseEntity<>(structure,HttpStatus.CREATED);
 public ResponseEntity<?> updatedepartment(@RequestBody departmentdto dto)
 {
 ResponseStructure<departmentdto> structure = departmentser.updatedepartment(dto);
-	return new ResponseEntity<>(structure,HttpStatus.OK);
+return new ResponseEntity<>(structure,HttpStatus.OK);
 }
 @DeleteMapping("/delete/{departmentId}")
 public ResponseEntity<?> deletedepartment(@PathVariable int departmentId)
