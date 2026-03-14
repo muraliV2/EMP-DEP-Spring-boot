@@ -12,8 +12,7 @@ public class departmentdao
 	departmentrepository deparrepository;
 	public department registerdepartment(department department) {
 		
-
-		
+	
 		Optional<department> opt =  deparrepository.findById(department.getDepartmentId());
 		if(opt.isPresent())
 		{
