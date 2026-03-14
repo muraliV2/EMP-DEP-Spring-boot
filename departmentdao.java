@@ -11,8 +11,7 @@ public class departmentdao
 	@Autowired
 	departmentrepository deparrepository;
 	public department registerdepartment(department department) {
-		
-		Optional<department> opt =  deparrepository.findById(department.getDepartmentId());
+			Optional<department> opt =  deparrepository.findById(department.getDepartmentId());
 		if(opt.isPresent())
 		{
 			throw new IllegalArgumentException("Department id already available");
