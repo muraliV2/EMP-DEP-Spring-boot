@@ -35,7 +35,6 @@ return structure;
 	structure.setStatusCode(200);
 	structure.setTimeStamp(LocalDateTime.now());
 	structure.setMessage("department updated Successfully0");
-	
 		return structure;
 	}
 
