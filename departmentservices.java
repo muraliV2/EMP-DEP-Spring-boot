@@ -24,8 +24,7 @@ structure.setStatusCode(200);
 structure.setTimeStamp(LocalDateTime.now());
 structure.setMessage("Department registered Successfully");
 return structure;
-    
-		
+    		
 	}
 	public ResponseStructure<departmentdto> updatedepartment(departmentdto dto) 
 	{
