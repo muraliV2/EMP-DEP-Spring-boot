@@ -46,7 +46,6 @@ return structure;
 		structure.setTimeStamp(LocalDateTime.now());
 		return structure;
 	}
-
 public ResponseStructure<departmentdto> getDepartmentbyid(int departmentId) {
 		
 		department depart =departmentdao.getDepartmentbyid(departmentId);
