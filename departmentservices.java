@@ -70,5 +70,4 @@ public ResponseStructure<departmentdto> getDepartmentbyid(int departmentId) {
 		structure.setTimeStamp(LocalDateTime.now());
 		return structure;
 	}
-
 }
