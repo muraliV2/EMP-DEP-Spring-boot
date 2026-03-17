@@ -50,6 +50,5 @@ public class departmentdao
 	}
 	public department getdepartmentbyname(String departmentName) {
 	return deparrepository.findByDepartmentName(departmentName).orElseThrow(() -> new IllegalArgumentException("no department name found"));
-	}
-	
+	}	
 }
