@@ -44,8 +44,7 @@ public class departmentdao
 		}		
 	}
 	public department getDepartmentbyid(int departmentId) {
-		return deparrepository.findById(departmentId).orElseThrow(() -> new IllegalArgumentException("no department id found"));
-		
+		return deparrepository.findById(departmentId).orElseThrow(() -> new IllegalArgumentException("no department id found"));		
 	}
 	public department getdepartmentbyname(String departmentName) {
 	return deparrepository.findByDepartmentName(departmentName).orElseThrow(() -> new IllegalArgumentException("no department name found"));
