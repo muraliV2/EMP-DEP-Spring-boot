@@ -42,8 +42,7 @@ public class departmentdao
 		else
 		{
 			throw new IllegalArgumentException("department deleted successfully");
-		}
-		
+		}		
 	}
 	public department getDepartmentbyid(int departmentId) {
 		return deparrepository.findById(departmentId).orElseThrow(() -> new IllegalArgumentException("no department id found"));
