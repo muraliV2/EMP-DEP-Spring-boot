@@ -30,8 +30,7 @@ public class departmentdao
 		else
 		{
 			throw new IllegalArgumentException("the department id is wrong");
-		}
-		
+		}	
 	}
 	public String deletedepartment(int departmentId) {
 		Optional<department> opt = deparrepository.findById(departmentId);
