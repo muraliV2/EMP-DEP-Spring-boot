@@ -58,7 +58,6 @@ public ResponseStructure<departmentdto> getDepartmentbyid(int departmentId) {
 		return structure;
 		
 	}
-
 	public ResponseStructure<departmentdto> getdepartmentbyname(String departmentName) {
 		department depart = departmentdao.getdepartmentbyname(departmentName);
 		ResponseStructure<departmentdto> structure = new ResponseStructure<departmentdto>();
