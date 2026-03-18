@@ -55,8 +55,7 @@ public ResponseStructure<departmentdto> getDepartmentbyid(int departmentId) {
 		structure.setMessage("We got the department via id");
 		structure.setStatusCode(200);
 		structure.setTimeStamp(LocalDateTime.now());
-		return structure;
-		
+		return structure;		
 	}
 	public ResponseStructure<departmentdto> getdepartmentbyname(String departmentName) {
 		department depart = departmentdao.getdepartmentbyname(departmentName);
