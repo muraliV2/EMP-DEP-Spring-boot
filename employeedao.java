@@ -19,7 +19,6 @@ public class Employeedao {
         return emprep.save(employee);
     }
 
-    
 
 	public List<Employee> getalldept() {
 		return emprep.findAll();
