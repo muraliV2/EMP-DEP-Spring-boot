@@ -9,7 +9,6 @@ import com.jspiders.repository.Employeerepository;
 
 @Repository
 public class Employeedao {
-
     @Autowired
     private Employeerepository emprep;
 
