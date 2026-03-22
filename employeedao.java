@@ -26,8 +26,6 @@ public class Employeedao {
 		return emprep.findById(employeeId);
 	}
 
-
-
 	public List<Employee> findbydept(String departmentName) {
 		
 		return emprep.findByDepartment_DepartmentName(departmentName);
