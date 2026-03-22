@@ -32,8 +32,6 @@ public class Employeedao {
 	}
 
 
-
-
 	public String deleteempbyid(int employeeid) 
 	{
 		Optional<Employee> opt = emprep.findById(employeeid);
