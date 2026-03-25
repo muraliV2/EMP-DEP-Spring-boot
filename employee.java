@@ -23,7 +23,6 @@ public class Employee {
     private String designation;
     private LocalDateTime datatime;
     private boolean accountstatus;
-
     @ManyToOne
     private department department;
 
