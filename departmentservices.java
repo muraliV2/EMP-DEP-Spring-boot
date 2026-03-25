@@ -11,7 +11,6 @@ import com.jspiders.util.ResponseStructure;
 @Service
 public class departmentservice {
 
-	
 	@Autowired
 	departmentdao departmentdao;
 	
