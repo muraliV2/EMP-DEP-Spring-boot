@@ -13,7 +13,6 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int employeeid;
-
     private String employeeName;
     private String employeeEmail;
     private String password;
