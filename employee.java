@@ -21,7 +21,6 @@ public class Employee {
     private long contact;
     private int salary;
     private String designation;
-
     private LocalDateTime datatime;
     private boolean accountstatus;
 
