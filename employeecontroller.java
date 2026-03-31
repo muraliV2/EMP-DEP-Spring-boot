@@ -58,7 +58,5 @@ return new ResponseEntity<>(structure,HttpStatus.CREATED);
 		ResponseStructure<String> structure = empser.deleteempbyid(employeeid);
 		return new ResponseEntity<>(structure,HttpStatus.OK);
 	}
-	
-
 }
 
