@@ -24,8 +24,6 @@ public class Employee {
     @ManyToOne
     private department department;
 
-
-
     public void addEmployees(department depart) {
         this.department = depart;
         depart.getListofemployees().add(this);
