@@ -21,7 +21,6 @@ public class EmployeeController
 {
 	@Autowired
 private EmployeeService empser;
-	
 	@PostMapping("/register")
 public ResponseEntity<?> registeremployee(@RequestBody EmployeeRequestdto dto)
 {
