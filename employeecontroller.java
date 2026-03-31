@@ -33,7 +33,6 @@ return new ResponseEntity<>(structure,HttpStatus.CREATED);
 	{
 		ResponseStructure<List<Employeeresponsedto>> structure = empser.getalldept();
 		return new ResponseEntity<>(structure,HttpStatus.OK);
-
 	}
 	@GetMapping("/findby/{employeeId}")
 	public ResponseEntity<?> findEmployeeById( @PathVariable int employeeId)
