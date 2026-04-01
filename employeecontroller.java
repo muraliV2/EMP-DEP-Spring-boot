@@ -55,8 +55,8 @@ return new ResponseEntity<>(structure,HttpStatus.CREATED);
 	@DeleteMapping("delete/{employeeid}")
 	public ResponseEntity<?> deleteempbyid(@PathVariable int employeeid)
 	{
-		ResponseStructure<String> structure = empser.deleteempbyid(employeeid);
-		return new ResponseEntity<>(structure,HttpStatus.OK);
+	ResponseStructure<String> structure = empser.deleteempbyid(employeeid);
+	return new ResponseEntity<>(structure,HttpStatus.OK);
 	}
 }
 
