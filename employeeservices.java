@@ -15,7 +15,6 @@ import com.jspiders.repository.departmentrepository;
 import com.jspiders.util.ResponseStructure;
 @Service
 public class EmployeeService {
-
 	@Autowired
 	private departmentrepository departmentRepository;
 	
