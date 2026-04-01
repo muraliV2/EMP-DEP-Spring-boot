@@ -35,7 +35,6 @@ public class EmployeeService {
 		{
 			throw new RuntimeException("No Employeee Found in this Department");
 		}
-		
 		Employeeresponsedto Empdto = mapper.map(employee2, Employeeresponsedto.class);
 		Empdto.setDepartmeantName(
 				employee2.getDepartment() != null ? employee2.getDepartment().getDepartmentName() : null);
