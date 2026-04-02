@@ -51,7 +51,6 @@ return new ResponseEntity<>(structure,HttpStatus.CREATED);
 		ResponseStructure<List<Employeeresponsedto>> structure = empser.findbydepid(departmentId);
 		return new ResponseEntity<>(structure,HttpStatus.OK);
 	}
-	
 	@DeleteMapping("delete/{employeeid}")
 	public ResponseEntity<?> deleteempbyid(@PathVariable int employeeid)
 	{
