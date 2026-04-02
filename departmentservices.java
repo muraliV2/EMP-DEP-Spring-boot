@@ -19,7 +19,6 @@ public class departmentservice {
 	department department = mapper.map(dto,department.class);
 	department depart = departmentdao.registerdepartment(department);
     departmentdto dto2 = mapper.map(depart, departmentdto.class);
-    
     ResponseStructure<departmentdto> structure = new ResponseStructure<>();
 structure.setData(dto2);
 structure.setStatusCode(200);
