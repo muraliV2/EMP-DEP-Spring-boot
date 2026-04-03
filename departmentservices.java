@@ -38,8 +38,7 @@ structure.setMessage("Department registered Successfully");
 	
 		return structure;
 	}
-
-	public ResponseStructure<String> deletedepartment(int departmentId) {
+ public ResponseStructure<String> deletedepartment(int departmentId) {
 		String message = departmentdao.deletedepartment(departmentId);
 		ResponseStructure<String> structure = new ResponseStructure<String>();
 		structure.setData(message);
