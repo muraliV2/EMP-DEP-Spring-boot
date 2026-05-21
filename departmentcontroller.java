@@ -17,7 +17,7 @@ import com.jspiders.util.ResponseStructure;
 @RequestMapping("/department")
 public class departmentcontroller 
 {
-	@Autowired
+@Autowired
 private departmentservice departmentser;
 @PostMapping("/register")
 public ResponseEntity<?> registerdepartment( @RequestBody departmentdto dto)
