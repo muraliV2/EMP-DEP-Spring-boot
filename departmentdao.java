@@ -40,7 +40,7 @@ public class departmentdao
 		}
 		else
 		{
-			throw new IllegalArgumentException("department deleted successfully");
+		throw new IllegalArgumentException("department deleted successfully");
 		}		
 	}
 	public department getDepartmentbyid(int departmentId) {
