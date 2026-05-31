@@ -35,7 +35,7 @@ structure.setMessage("Department registered Successfully");
 	structure.setStatusCode(200);
 	structure.setTimeStamp(LocalDateTime.now());
 	structure.setMessage("department updated Successfully0");
-		return structure;
+	return structure;
 	}
  public ResponseStructure<String> deletedepartment(int departmentId) {
 		String message = departmentdao.deletedepartment(departmentId);
