@@ -13,8 +13,7 @@ public class Employeeresponsedto
 		private int salary;
 		private String designation;
 		private String departmeantName;
-		
-	
+			
 	
 
 }
