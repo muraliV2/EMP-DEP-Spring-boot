@@ -12,7 +12,6 @@ public class Employeeresponsedto
 		private long contact;
 		private int salary;
 		private String designation;
-		private String departmeantName;
-			
+		private String departmeantName;			
 	
 }
