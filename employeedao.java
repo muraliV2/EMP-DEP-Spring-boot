@@ -16,7 +16,6 @@ public class Employeedao {
 	public List<Employee> getalldept() {
 		return emprep.findAll();
 	}
-
 	public Optional<Employee> findEmployeeById(int employeeId) {
 		
 		return emprep.findById(employeeId);
