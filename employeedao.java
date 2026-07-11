@@ -10,7 +10,6 @@ import com.jspiders.repository.Employeerepository;
 public class Employeedao {
     @Autowired
     private Employeerepository emprep;
-
     public Employee registeremployee(Employee employee) {
         return emprep.save(employee);
     }
