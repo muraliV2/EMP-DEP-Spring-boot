@@ -13,7 +13,6 @@ public class Employeedao {
     public Employee registeremployee(Employee employee) {
         return emprep.save(employee);
     }
-
 	public List<Employee> getalldept() {
 		return emprep.findAll();
 	}
