@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.jspiders.Entity.Employee;
 import com.jspiders.dto.Employeeresponsedto;
 import com.jspiders.repository.Employeerepository;
-
 @Repository
 public class Employeedao {
     @Autowired
