@@ -19,7 +19,7 @@ import com.jspiders.util.ResponseStructure;
 @RequestMapping("/employee")
 public class EmployeeController 
 {
-	@Autowired
+@Autowired
 private EmployeeService empser;
 	@PostMapping("/register")
 public ResponseEntity<?> registeremployee(@RequestBody EmployeeRequestdto dto)
