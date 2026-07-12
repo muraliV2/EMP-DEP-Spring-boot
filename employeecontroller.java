@@ -27,7 +27,7 @@ public ResponseEntity<?> registeremployee(@RequestBody EmployeeRequestdto dto)
 ResponseStructure<Employeeresponsedto> structure = empser.registeremployee(dto);	
 return new ResponseEntity<>(structure,HttpStatus.CREATED);
 }
-	@GetMapping("/findall")
+@GetMapping("/findall")
 	public ResponseEntity<?> getalldept()
 	{
 		ResponseStructure<List<Employeeresponsedto>> structure = empser.getalldept();
