@@ -21,7 +21,7 @@ public class EmployeeController
 {
 @Autowired
 private EmployeeService empser;
-	@PostMapping("/register")
+@PostMapping("/register")
 public ResponseEntity<?> registeremployee(@RequestBody EmployeeRequestdto dto)
 {
 ResponseStructure<Employeeresponsedto> structure = empser.registeremployee(dto);	
