@@ -43,7 +43,7 @@ return new ResponseEntity<>(structure,HttpStatus.CREATED);
 	public ResponseEntity<?> findbydept(@PathVariable String departmentName)
 	{
 		ResponseStructure<List<Employeeresponsedto>> structure = empser.findbydept(departmentName);
-		return new ResponseEntity<>(structure,HttpStatus.OK);
+	return new ResponseEntity<>(structure,HttpStatus.OK);
 	}
 	@GetMapping("/findbydepid/{departmentId}")
 	public ResponseEntity<?> findbydepid(@PathVariable int departmentId)
