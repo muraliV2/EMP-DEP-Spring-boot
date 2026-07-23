@@ -41,7 +41,6 @@ public class EmployeeService {
 		structure.setTimeStamp(LocalDateTime.now());
 		return structure;
 	}
-	
 	public ResponseStructure<List<Employeeresponsedto>> getalldept() {
 		List<Employee> employees = dao.getalldept();
 		List<Employeeresponsedto> dto = employees.stream().map(employee ->
