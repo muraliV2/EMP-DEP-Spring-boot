@@ -26,7 +26,6 @@ public class EmployeeService {
 				.orElseThrow(() -> new RuntimeException("Department not found"));
 		Employee employee = mapper.map(dto,Employee.class );
 		employee.setDepartment(department);
-		
 		Employee employee2 =  dao.registeremployee(employee);
 		if(employee2 == null)
 		{
