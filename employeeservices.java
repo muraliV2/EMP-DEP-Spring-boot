@@ -22,7 +22,6 @@ public class EmployeeService {
 	@Autowired
 	private ModelMapper mapper;
 	public ResponseStructure<Employeeresponsedto> registeremployee(EmployeeRequestdto dto) {
-	
 		department department = departmentRepository.findByDepartmentName(dto.getDepartmentName())
 				.orElseThrow(() -> new RuntimeException("Department not found"));
 		Employee employee = mapper.map(dto,Employee.class );
