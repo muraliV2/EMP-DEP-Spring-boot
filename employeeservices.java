@@ -25,7 +25,6 @@ public class EmployeeService {
 	
 		department department = departmentRepository.findByDepartmentName(dto.getDepartmentName())
 				.orElseThrow(() -> new RuntimeException("Department not found"));
-		
 		Employee employee = mapper.map(dto,Employee.class );
 		employee.setDepartment(department);
 		
