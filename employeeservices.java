@@ -17,7 +17,6 @@ import com.jspiders.util.ResponseStructure;
 public class EmployeeService {
 	@Autowired
 	private departmentrepository departmentRepository;
-	
 	@Autowired
 	private Employeedao dao;
 	@Autowired
